@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+.env
+.env.*
+
+# Node
+node_modules/
+
+# Editor
+.vscode/
+.idea/
+
+# Data / artifacts
+/data/
+/output/
+/tmp/

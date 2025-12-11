@@ -1,0 +1,6 @@
+google-generativeai
+pydantic
+python-dotenv
+# docx2pdf, pdf2image, xlsx2html, imgkit removed (replaced by LibreOffice headless)
+# python-docx, openpyxl, pdfplumber removed (legacy parse)
+# docling removed (legacy smart parse)

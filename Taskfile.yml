@@ -1,0 +1,37 @@
+version: '3'
+
+tasks:
+  setup:
+    desc: "Create venv and install dependencies"
+    cmds:
+      - python3 -m venv .venv
+      - .venv/bin/pip install -r requirements.txt
+
+  extract:
+    desc: "Run extraction on all samples with the vision implementation"
+    vars:
+      IMPL: '{{.IMPL | default "vision"}}'
+    cmds:
+      - .venv/bin/python scripts/run_all.py --impl {{.IMPL}}
+
+  bench:
+    desc: "Run full benchmark (extract + eval) against golden data"
+    vars:
+      IMPL: '{{.IMPL | default "vision"}}'
+    cmds:
+      - .venv/bin/python -m src.cli.bench_extract --impl {{.IMPL}} --docs data/samples --golden data/golden --out output/bench_results
+
+  eval:
+    desc: "Evaluate ALL existing results in output/ directory"
+    cmds:
+      - .venv/bin/python scripts/eval_only.py --base-dir output --golden data/golden
+
+  clean:
+    desc: "Remove output artifacts"
+    cmds:
+      - rm -rf output/*
+
+  dummy:
+    desc: "Regenerate the dummy schedule DOCX"
+    cmds:
+      - .venv/bin/python scripts/create_dummy_docx.py
