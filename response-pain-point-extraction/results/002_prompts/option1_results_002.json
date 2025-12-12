@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-10T12:26:30.133528",
+    "option": "option1_simple",
+    "model": "gemini-2.5-pro",
+    "threshold": 0.9,
+    "documents": [
+      "Request-for-Information-AI-Tools-in-Government.pdf"
+    ],
+    "timing": {
+      "upload_seconds": 5.09,
+      "extraction_seconds": 35.09,
+      "total_seconds": 40.2
+    },
+    "tokens": {
+      "prompt_tokens": 2142,
+      "candidates_tokens": 616,
+      "total_tokens": 6245
+    }
+  },
+  "pain_points_original": [
+    {
+      "title": "Transforming Public Service Delivery with AI",
+      "description": "The government seeks to fundamentally enhance efficiency, decision-making, and service delivery. The core challenge is moving beyond current operational models to leverage AI for improved public satisfaction and better community outcomes.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Ensuring AI Data Security and Privacy Compliance",
+      "description": "The buyer has a critical need to ensure any AI solution, especially those using LLMs, rigorously protects sensitive government data and complies with strict ICT, security, and privacy policies. Safeguarding data is a paramount, non-negotiable requirement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3"
+      ]
+    },
+    {
+      "title": "Integrating AI with Legacy Government Systems",
+      "description": "There is significant concern about the feasibility of integrating new AI solutions with existing government systems. The buyer needs to assess the maturity, scalability, and adaptability of solutions to avoid creating new data silos or failed deployments.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3",
+        "RFI_PREM057530.pdf page 7"
+      ]
+    },
+    {
+      "title": "Lacking a Clear AI Adoption & Procurement Strategy",
+      "description": "This RFI is an exploratory step to inform future strategy, policy, and procurement. The buyer currently lacks a formal framework for AI adoption, creating uncertainty around budgeting, governance, vendor selection, and long-term investment.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Validating AI Use Cases and Business Value",
+      "description": "The government needs to de-risk AI investment by exploring pilots and learning from proven deployments. There is uncertainty about which AI applications will deliver the best return on investment and how to build compelling business cases.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3",
+        "RFI_PREM057530.pdf page 7"
+      ]
+    }
+  ],
+  "deduplication": {
+    "before_count": 5,
+    "after_count": 5,
+    "merge_decisions": []
+  },
+  "pain_points_final": [
+    {
+      "title": "Transforming Public Service Delivery with AI",
+      "description": "The government seeks to fundamentally enhance efficiency, decision-making, and service delivery. The core challenge is moving beyond current operational models to leverage AI for improved public satisfaction and better community outcomes.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Ensuring AI Data Security and Privacy Compliance",
+      "description": "The buyer has a critical need to ensure any AI solution, especially those using LLMs, rigorously protects sensitive government data and complies with strict ICT, security, and privacy policies. Safeguarding data is a paramount, non-negotiable requirement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3"
+      ]
+    },
+    {
+      "title": "Integrating AI with Legacy Government Systems",
+      "description": "There is significant concern about the feasibility of integrating new AI solutions with existing government systems. The buyer needs to assess the maturity, scalability, and adaptability of solutions to avoid creating new data silos or failed deployments.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3",
+        "RFI_PREM057530.pdf page 7"
+      ]
+    },
+    {
+      "title": "Lacking a Clear AI Adoption & Procurement Strategy",
+      "description": "This RFI is an exploratory step to inform future strategy, policy, and procurement. The buyer currently lacks a formal framework for AI adoption, creating uncertainty around budgeting, governance, vendor selection, and long-term investment.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Validating AI Use Cases and Business Value",
+      "description": "The government needs to de-risk AI investment by exploring pilots and learning from proven deployments. There is uncertainty about which AI applications will deliver the best return on investment and how to build compelling business cases.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_PREM057530.pdf page 3",
+        "RFI_PREM057530.pdf page 7"
+      ]
+    }
+  ]
+}

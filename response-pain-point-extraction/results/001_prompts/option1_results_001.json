@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-10T10:05:10.285327",
+    "option": "option1_simple",
+    "model": "gemini-2.5-pro",
+    "threshold": 0.8,
+    "documents": [
+      null
+    ],
+    "timing": {
+      "upload_seconds": 4.78,
+      "extraction_seconds": 32.06,
+      "total_seconds": 36.87
+    }
+  },
+  "pain_points_original": [
+    {
+      "title": "Unclear AI Transformation & Procurement Strategy",
+      "description": "DPC aims to use AI to transform government services but lacks a clear understanding of the market, viable use cases, and how to structure future procurement and policy to achieve these goals.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_AI_Tools_for_Government.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Securing Sensitive Data in AI Solutions",
+      "description": "A critical challenge is adopting powerful AI tools, especially those using external LLMs, while ensuring strict compliance with security and privacy policies to safeguard sensitive government data.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_AI_Tools_for_Government.pdf page 3"
+      ]
+    },
+    {
+      "title": "AI Integration with Legacy Government Systems",
+      "description": "DPC is concerned with the risk of integrating new AI solutions with existing government systems, focusing on the maturity, scalability, and adaptability of vendor solutions to ensure seamless operation.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_AI_Tools_for_Government.pdf page 3",
+        "RFI_AI_Tools_for_Government.pdf page 7"
+      ]
+    },
+    {
+      "title": "Forecasting AI Investment and Budgeting",
+      "description": "Lacking clear cost models for AI technology, DPC cannot effectively plan future budgets or build the financial business case required for long-term, strategic investment in AI adoption.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_AI_Tools_for_Government.pdf page 3",
+        "RFI_AI_Tools_for_Government.pdf page 7"
+      ]
+    }
+  ],
+  "deduplication": {
+    "before_count": 4,
+    "after_count": 1,
+    "merge_decisions": [
+      {
+        "kept": "Unclear AI Transformation & Procurement Strategy",
+        "merged": "Securing Sensitive Data in AI Solutions",
+        "similarity": 0.8047539207795591
+      },
+      {
+        "kept": "Unclear AI Transformation & Procurement Strategy",
+        "merged": "AI Integration with Legacy Government Systems",
+        "similarity": 0.8438562838907018
+      },
+      {
+        "kept": "Unclear AI Transformation & Procurement Strategy",
+        "merged": "Forecasting AI Investment and Budgeting",
+        "similarity": 0.9003154092085381
+      }
+    ]
+  },
+  "pain_points_final": [
+    {
+      "title": "Unclear AI Transformation & Procurement Strategy",
+      "description": "DPC aims to use AI to transform government services but lacks a clear understanding of the market, viable use cases, and how to structure future procurement and policy to achieve these goals.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_AI_Tools_for_Government.pdf page 3-4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-11T15:57:54.416499",
+    "option": "option2_multipass",
+    "model": "gemini-3-pro-preview",
+    "threshold": 0.9,
+    "prompt_version": "v5",
+    "documents": [
+      "RFI_10018743_AGS_AI_for_Legal_Research.pdf",
+      "RFI_10018743_Attachment_ai_legal_research.pdf"
+    ],
+    "timing": {
+      "upload_seconds": 7.8,
+      "extraction_seconds": 91.98,
+      "total_seconds": 99.8
+    },
+    "tokens": {
+      "error": "the JSON object must be str, bytes or bytearray, not NoneType"
+    }
+  },
+  "step_results": {
+    "step1_initial_count": 0,
+    "step1_initial_points": [],
+    "step2_filtered_count": 0,
+    "step2_filtered_points": [],
+    "step3_refined_count": 0,
+    "step3_refined_points": []
+  },
+  "deduplication": {
+    "before_count": 0,
+    "after_count": 0,
+    "merge_decisions": []
+  },
+  "pain_points_final": []
+}

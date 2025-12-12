@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-10T10:51:52.702283",
+    "option": "option3_validated",
+    "model": "gemini-2.5-pro",
+    "threshold": 0.8,
+    "documents": [
+      "Request-for-Information-AI-Tools-in-Government.pdf"
+    ],
+    "timing": {
+      "upload_seconds": 4.23,
+      "extraction_seconds": 32.42,
+      "total_seconds": 36.67
+    }
+  },
+  "pain_points_original": [
+    {
+      "title": "Data Security & Regulatory Compliance Risk",
+      "description": "The buyer must ensure any AI solution complies with strict government ICT, security, and privacy policies (IPPs) to safeguard sensitive government data and avoid breaches.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Integration with Legacy Systems & Scalability",
+      "description": "The buyer is concerned about the technical challenge and cost of integrating new AI tools with their existing systems, and whether the solutions are mature and can scale effectively across government.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Budget Uncertainty and Future Costing",
+      "description": "The buyer lacks clear cost models for AI solutions, making it difficult to plan budgets and allocate funds. They need indicative pricing to build a business case for future procurement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Need for Proven Government Use Cases",
+      "description": "The buyer is risk-averse and requires evidence of successful AI deployments in similar public sector environments to validate solution reliability, performance, and vendor experience before committing.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Navigating the Complex AI Market",
+      "description": "The buyer lacks a clear understanding of the current AI market landscape, making it difficult to identify suitable, innovative, and mature solutions that genuinely address government needs.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 4"
+      ]
+    }
+  ],
+  "pain_points_after_score_filter": [
+    {
+      "title": "Data Security & Regulatory Compliance Risk",
+      "description": "The buyer must ensure any AI solution complies with strict government ICT, security, and privacy policies (IPPs) to safeguard sensitive government data and avoid breaches.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Integration with Legacy Systems & Scalability",
+      "description": "The buyer is concerned about the technical challenge and cost of integrating new AI tools with their existing systems, and whether the solutions are mature and can scale effectively across government.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Budget Uncertainty and Future Costing",
+      "description": "The buyer lacks clear cost models for AI solutions, making it difficult to plan budgets and allocate funds. They need indicative pricing to build a business case for future procurement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Need for Proven Government Use Cases",
+      "description": "The buyer is risk-averse and requires evidence of successful AI deployments in similar public sector environments to validate solution reliability, performance, and vendor experience before committing.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Navigating the Complex AI Market",
+      "description": "The buyer lacks a clear understanding of the current AI market landscape, making it difficult to identify suitable, innovative, and mature solutions that genuinely address government needs.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 4"
+      ]
+    }
+  ],
+  "deduplication": {
+    "before_count": 5,
+    "after_count": 2,
+    "merge_decisions": [
+      {
+        "kept": "Data Security & Regulatory Compliance Risk",
+        "merged": "Integration with Legacy Systems & Scalability",
+        "similarity": 0.8377353154178303
+      },
+      {
+        "kept": "Data Security & Regulatory Compliance Risk",
+        "merged": "Need for Proven Government Use Cases",
+        "similarity": 0.8808383403116057
+      },
+      {
+        "kept": "Data Security & Regulatory Compliance Risk",
+        "merged": "Navigating the Complex AI Market",
+        "similarity": 0.8258173362060834
+      },
+      {
+        "kept": "Budget Uncertainty and Future Costing",
+        "merged": "Need for Proven Government Use Cases",
+        "similarity": 0.8303521815806028
+      },
+      {
+        "kept": "Budget Uncertainty and Future Costing",
+        "merged": "Navigating the Complex AI Market",
+        "similarity": 0.9108150494034222
+      }
+    ]
+  },
+  "pain_points_final": [
+    {
+      "title": "Data Security & Regulatory Compliance Risk",
+      "description": "The buyer must ensure any AI solution complies with strict government ICT, security, and privacy policies (IPPs) to safeguard sensitive government data and avoid breaches.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    },
+    {
+      "title": "Budget Uncertainty and Future Costing",
+      "description": "The buyer lacks clear cost models for AI solutions, making it difficult to plan budgets and allocate funds. They need indicative pricing to build a business case for future procurement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_Document.pdf page 3",
+        "RFI_Document.pdf page 7"
+      ]
+    }
+  ]
+}

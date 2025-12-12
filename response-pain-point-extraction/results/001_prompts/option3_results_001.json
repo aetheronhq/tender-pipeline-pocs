@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-10T10:26:13.475747",
+    "option": "option3_validated",
+    "model": "gemini-2.5-pro",
+    "threshold": 0.8,
+    "documents": [
+      "Request-for-Information-AI-Tools-in-Government.pdf"
+    ],
+    "timing": {
+      "upload_seconds": 4.52,
+      "extraction_seconds": 28.24,
+      "total_seconds": 32.79
+    }
+  },
+  "pain_points_original": [
+    {
+      "title": "Overwhelming Security & Data Privacy Risks",
+      "description": "The buyer is critically concerned about compliance with government ICT security policies and Information Privacy Principles (IPPs). Safeguarding sensitive government data is a non-negotiable requirement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request for Information.pdf page 3"
+      ]
+    },
+    {
+      "title": "Risk of Failed Implementation & Unproven Tech",
+      "description": "Lacking internal AI experience, the buyer is highly risk-averse. They require strong evidence of successful deployments in similar government contexts and want to explore pilot programs to avoid costly failures.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 7"
+      ]
+    },
+    {
+      "title": "Addressing Core Government Inefficiencies",
+      "description": "The fundamental driver is the need to fix core operational problems. The buyer seeks AI to directly boost efficiency, improve decision-making, enhance service delivery, and achieve better community outcomes.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 4"
+      ]
+    },
+    {
+      "title": "Complex Integration with Existing Systems",
+      "description": "The buyer is concerned about the difficulty, cost, and disruption of integrating new AI solutions with existing government systems. They need to assess the adaptability and scalability of vendor solutions.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 7"
+      ]
+    },
+    {
+      "title": "Unpredictable Costs and Unclear ROI",
+      "description": "The buyer needs clear, predictable costing models to plan budgets and justify expenditure. They must build a strong business case for AI investment based on tangible efficiency and service delivery gains.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 7"
+      ]
+    }
+  ],
+  "pain_points_after_score_filter": [
+    {
+      "title": "Overwhelming Security & Data Privacy Risks",
+      "description": "The buyer is critically concerned about compliance with government ICT security policies and Information Privacy Principles (IPPs). Safeguarding sensitive government data is a non-negotiable requirement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request for Information.pdf page 3"
+      ]
+    },
+    {
+      "title": "Risk of Failed Implementation & Unproven Tech",
+      "description": "Lacking internal AI experience, the buyer is highly risk-averse. They require strong evidence of successful deployments in similar government contexts and want to explore pilot programs to avoid costly failures.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 7"
+      ]
+    },
+    {
+      "title": "Addressing Core Government Inefficiencies",
+      "description": "The fundamental driver is the need to fix core operational problems. The buyer seeks AI to directly boost efficiency, improve decision-making, enhance service delivery, and achieve better community outcomes.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 4"
+      ]
+    },
+    {
+      "title": "Complex Integration with Existing Systems",
+      "description": "The buyer is concerned about the difficulty, cost, and disruption of integrating new AI solutions with existing government systems. They need to assess the adaptability and scalability of vendor solutions.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 7"
+      ]
+    },
+    {
+      "title": "Unpredictable Costs and Unclear ROI",
+      "description": "The buyer needs clear, predictable costing models to plan budgets and justify expenditure. They must build a strong business case for AI investment based on tangible efficiency and service delivery gains.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 7"
+      ]
+    }
+  ],
+  "deduplication": {
+    "before_count": 5,
+    "after_count": 2,
+    "merge_decisions": [
+      {
+        "kept": "Overwhelming Security & Data Privacy Risks",
+        "merged": "Risk of Failed Implementation & Unproven Tech",
+        "similarity": 0.8492843220521734
+      },
+      {
+        "kept": "Overwhelming Security & Data Privacy Risks",
+        "merged": "Complex Integration with Existing Systems",
+        "similarity": 0.8201488851877614
+      },
+      {
+        "kept": "Addressing Core Government Inefficiencies",
+        "merged": "Complex Integration with Existing Systems",
+        "similarity": 0.8440382466235192
+      },
+      {
+        "kept": "Addressing Core Government Inefficiencies",
+        "merged": "Unpredictable Costs and Unclear ROI",
+        "similarity": 0.8767739151779018
+      }
+    ]
+  },
+  "pain_points_final": [
+    {
+      "title": "Overwhelming Security & Data Privacy Risks",
+      "description": "The buyer is critically concerned about compliance with government ICT security policies and Information Privacy Principles (IPPs). Safeguarding sensitive government data is a non-negotiable requirement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request for Information.pdf page 3"
+      ]
+    },
+    {
+      "title": "Addressing Core Government Inefficiencies",
+      "description": "The fundamental driver is the need to fix core operational problems. The buyer seeks AI to directly boost efficiency, improve decision-making, enhance service delivery, and achieve better community outcomes.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request for Information.pdf page 3",
+        "Request for Information.pdf page 4"
+      ]
+    }
+  ]
+}

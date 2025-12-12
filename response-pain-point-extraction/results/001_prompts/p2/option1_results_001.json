@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-10T10:49:37.245909",
+    "option": "option1_simple",
+    "model": "gemini-2.5-pro",
+    "threshold": 0.8,
+    "documents": [
+      "Request-for-Information-AI-Tools-in-Government.pdf"
+    ],
+    "timing": {
+      "upload_seconds": 4.92,
+      "extraction_seconds": 23.92,
+      "total_seconds": 28.87
+    }
+  },
+  "pain_points_original": [
+    {
+      "title": "Modernizing Public Service Delivery with AI",
+      "description": "The government seeks to fundamentally transform its operations by using AI to enhance efficiency, inform decision-making, and innovate service delivery to achieve better community outcomes and public satisfaction.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Ensuring Data Security & Compliance in AI",
+      "description": "A critical challenge is adopting AI while ensuring the absolute security and safeguarding of sensitive government data, demanding strict compliance with all ICT, security, cyber, and privacy policies (IPPs).",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI.pdf page 3"
+      ]
+    },
+    {
+      "title": "Integrating AI with Legacy Government Systems",
+      "description": "A key strategic hurdle is the ability to assess and integrate new, scalable, and adaptable AI solutions with existing government IT systems, which is critical for successful and non-disruptive implementation.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI.pdf page 3",
+        "RFI.pdf page 7"
+      ]
+    },
+    {
+      "title": "Lack of AI Market & Costing Intelligence",
+      "description": "The government is in an early information-gathering phase, needing to understand the landscape of AI tools, solutions, and pricing models to inform future procurement strategies, policy, and budget allocation.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "RFI.pdf page 3-4"
+      ]
+    }
+  ],
+  "deduplication": {
+    "before_count": 4,
+    "after_count": 1,
+    "merge_decisions": [
+      {
+        "kept": "Modernizing Public Service Delivery with AI",
+        "merged": "Ensuring Data Security & Compliance in AI",
+        "similarity": 0.816277551590246
+      },
+      {
+        "kept": "Modernizing Public Service Delivery with AI",
+        "merged": "Integrating AI with Legacy Government Systems",
+        "similarity": 0.8436192680941538
+      },
+      {
+        "kept": "Modernizing Public Service Delivery with AI",
+        "merged": "Lack of AI Market & Costing Intelligence",
+        "similarity": 0.8430498379587423
+      }
+    ]
+  },
+  "pain_points_final": [
+    {
+      "title": "Modernizing Public Service Delivery with AI",
+      "description": "The government seeks to fundamentally transform its operations by using AI to enhance efficiency, inform decision-making, and innovate service delivery to achieve better community outcomes and public satisfaction.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI.pdf page 3-4"
+      ]
+    }
+  ]
+}
