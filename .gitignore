@@ -19,6 +19,6 @@ node_modules/
 .idea/
 
 # Data / artifacts
-/data/
-/output/
+data/
+output/
 /tmp/

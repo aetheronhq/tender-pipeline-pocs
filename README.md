@@ -1,6 +1,8 @@
-# Response Schedule Extraction POC (Gemini)
+# Tender Pipeline POCs
 
-Purpose: rapid experiments to extract tender response schedule structure (numbering, questions, limits, compliance items) from DOCX/XLSX/PDF using multiple Gemini-based approaches. This repo is intentionally isolated from the main tender-creator-ai codebase to iterate quickly and choose the best architecture for production.
+Purpose: rapid experiments to validate architecture for the tender creation pipeline. Currently focused on extracting tender response schedule structure (numbering, questions, limits, compliance items) from DOCX/XLSX/PDF using multiple Gemini-based approaches.
+
+This repo is intentionally isolated from the main tender-creator-ai codebase to iterate quickly and choose the best architecture for production.
 
 ## Goals
 - Preserve exact question numbering and order from response schedules.
