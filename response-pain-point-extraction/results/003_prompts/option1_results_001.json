@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-10T14:27:59.264755",
+    "option": "option1_simple",
+    "model": "gemini-2.5-pro",
+    "threshold": 0.8,
+    "prompt_version": "v3",
+    "documents": [
+      "Request-for-Information-AI-Tools-in-Government.pdf"
+    ],
+    "timing": {
+      "upload_seconds": 6.5,
+      "extraction_seconds": 31.06,
+      "total_seconds": 37.59
+    },
+    "tokens": {
+      "prompt_tokens": 2405,
+      "candidates_tokens": 712,
+      "total_tokens": 5631
+    }
+  },
+  "pain_points_original": [
+    {
+      "title": "Critical Security & Data Governance Compliance",
+      "description": "The DPC must ensure any AI solution strictly complies with government ICT security policies and South Australian privacy laws (IPPs). Safeguarding sensitive government data is a non-negotiable, high-stakes risk, especially when solutions may integrate with third-party Large Language Models (LLMs).",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request-for-Information-AI-Tools-in-Government.pdf page 3"
+      ]
+    },
+    {
+      "title": "Complex Integration with Existing Systems",
+      "description": "DPC is concerned about the feasibility of integrating new AI solutions into its existing government systems. They need to assess the maturity, scalability, and adaptability of vendor solutions to avoid technological incompatibility, which would render any investment useless across the government.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request-for-Information-AI-Tools-in-Government.pdf page 3",
+        "Request-for-Information-AI-Tools-in-Government.pdf page 7"
+      ]
+    },
+    {
+      "title": "Unclear AI Market Landscape & Solution Viability",
+      "description": "As a whole-of-government body, DPC lacks a clear understanding of the current AI market to create a catalogue of viable offerings. This knowledge gap hinders their ability to distinguish mature, scalable tools from hype, making it difficult to plan strategic adoption of AI for public benefit.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "Request-for-Information-AI-Tools-in-Government.pdf page 3",
+        "Request-for-Information-AI-Tools-in-Government.pdf page 4"
+      ]
+    },
+    {
+      "title": "Lack of Proven Government AI Deployment Cases",
+      "description": "The government is risk-averse and requires evidence of successful AI deployments in similar public sector environments. This lack of proven case studies creates uncertainty about real-world performance, implementation challenges, and best practices, making it difficult to champion new initiatives.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "Request-for-Information-AI-Tools-in-Government.pdf page 3",
+        "Request-for-Information-AI-Tools-in-Government.pdf page 7"
+      ]
+    },
+    {
+      "title": "Budget Uncertainty & Future Cost Planning",
+      "description": "DPC lacks visibility into AI solution costing and pricing models, which prevents effective budget allocation and future procurement planning. They need indicative costs to build business cases, estimate total cost of ownership, and justify investment in AI technologies across government agencies.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "Request-for-Information-AI-Tools-in-Government.pdf page 3",
+        "Request-for-Information-AI-Tools-in-Government.pdf page 7"
+      ]
+    }
+  ],
+  "deduplication": {
+    "before_count": 5,
+    "after_count": 1,
+    "merge_decisions": [
+      {
+        "kept": "Critical Security & Data Governance Compliance",
+        "merged": "Complex Integration with Existing Systems",
+        "similarity": 0.8755440324646303
+      },
+      {
+        "kept": "Critical Security & Data Governance Compliance",
+        "merged": "Unclear AI Market Landscape & Solution Viability",
+        "similarity": 0.8032997089106159
+      },
+      {
+        "kept": "Critical Security & Data Governance Compliance",
+        "merged": "Lack of Proven Government AI Deployment Cases",
+        "similarity": 0.8237073817118787
+      },
+      {
+        "kept": "Critical Security & Data Governance Compliance",
+        "merged": "Budget Uncertainty & Future Cost Planning",
+        "similarity": 0.804150842030974
+      }
+    ]
+  },
+  "pain_points_final": [
+    {
+      "title": "Critical Security & Data Governance Compliance",
+      "description": "The DPC must ensure any AI solution strictly complies with government ICT security policies and South Australian privacy laws (IPPs). Safeguarding sensitive government data is a non-negotiable, high-stakes risk, especially when solutions may integrate with third-party Large Language Models (LLMs).",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "Request-for-Information-AI-Tools-in-Government.pdf page 3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-10T12:36:20.701290",
+    "option": "option2_multipass",
+    "model": "gemini-2.5-pro",
+    "threshold": 0.9,
+    "documents": [
+      "Request-for-Information-AI-Tools-in-Government.pdf"
+    ],
+    "timing": {
+      "upload_seconds": 4.84,
+      "extraction_seconds": 67.33,
+      "total_seconds": 72.2
+    },
+    "tokens": {
+      "step1_tokens": {
+        "prompt_tokens": 1941,
+        "candidates_tokens": 915,
+        "total_tokens": 5258
+      },
+      "step2_tokens": {
+        "prompt_tokens": 965,
+        "candidates_tokens": 448,
+        "total_tokens": 2670
+      },
+      "step3_tokens": {
+        "prompt_tokens": 598,
+        "candidates_tokens": 433,
+        "total_tokens": 2851
+      },
+      "total_prompt_tokens": 3504,
+      "total_candidates_tokens": 1796,
+      "total_tokens": 10779
+    }
+  },
+  "step_results": {
+    "step1_initial_count": 9,
+    "step1_initial_points": [
+      {
+        "title": "Uncertainty in AI Market Landscape",
+        "description": "The department is in an exploratory phase, lacking a clear understanding of the AI tools, solutions, and services available and relevant to government functions, which hinders strategic planning and procurement.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ]
+      },
+      {
+        "title": "Risk of Regulatory & Security Non-Compliance",
+        "description": "Ensuring any adopted AI tool strictly adheres to government ICT, security, cyber, and privacy policies (e.g., SA IPPs) is a critical requirement and a significant challenge, creating a high compliance burden.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ]
+      },
+      {
+        "title": "Integration with Existing Government Systems",
+        "description": "There is a significant concern about the maturity, scalability, and adaptability of new AI solutions and their ability to integrate smoothly with existing, potentially complex government IT infrastructure.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3",
+          "RFI_AI_Tools_for_Government.pdf page 7"
+        ]
+      },
+      {
+        "title": "Budgeting and Costing for AI Initiatives",
+        "description": "Lacking indicative costing and clear pricing models for AI solutions makes it difficult to conduct procurement planning, allocate budgets, and estimate the total cost of ownership for future AI projects.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3",
+          "RFI_AI_Tools_for_Government.pdf page 7"
+        ]
+      },
+      {
+        "title": "Safeguarding Data with Third-Party LLMs",
+        "description": "A specific and acute concern exists around how AI solutions, particularly those using third-party large language models (LLMs), will ensure the security and safeguarding of sensitive government data.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ]
+      },
+      {
+        "title": "Need to Improve Efficiency & Service Delivery",
+        "description": "Current government operations require a boost in efficiency, decision-making, and innovation. There's a need for AI tools to improve service delivery, public satisfaction, and community outcomes.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3",
+          "RFI_AI_Tools_for_Government.pdf page 4"
+        ]
+      },
+      {
+        "title": "Mitigating Risk of Large-Scale Adoption",
+        "description": "The government is hesitant to commit to major AI deployments without first de-risking the investment. There's a preference for pilots and collaborations to trial solutions in real-world scenarios.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ]
+      },
+      {
+        "title": "Lack of In-House AI Implementation Experience",
+        "description": "The department lacks deep experience in deploying AI solutions and needs to learn from vendors' 'lessons learned' and best practices from similar government contexts to ensure success.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3",
+          "RFI_AI_Tools_for_Government.pdf page 7"
+        ]
+      },
+      {
+        "title": "Addressing Workforce Skills Gap for AI Tools",
+        "description": "There is an implicit concern that staff will require training to use new AI tools effectively, indicating a potential skills gap that could hinder user adoption and the realization of benefits.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 7"
+        ]
+      }
+    ],
+    "step2_filtered_count": 4,
+    "step2_filtered_points": [
+      {
+        "title": "Uncertainty in AI Market Landscape",
+        "description": "The department is in an exploratory phase, lacking a clear understanding of the AI tools, solutions, and services available and relevant to government functions, which hinders strategic planning and procurement.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ],
+        "strategic_importance_score": 5
+      },
+      {
+        "title": "Risk of Regulatory & Security Non-Compliance",
+        "description": "Ensuring any adopted AI tool strictly adheres to government ICT, security, cyber, and privacy policies (e.g., SA IPPs) is a critical requirement and a significant challenge, creating a high compliance burden.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ],
+        "strategic_importance_score": 5
+      },
+      {
+        "title": "Safeguarding Data with Third-Party LLMs",
+        "description": "A specific and acute concern exists around how AI solutions, particularly those using third-party large language models (LLMs), will ensure the security and safeguarding of sensitive government data.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ],
+        "strategic_importance_score": 5
+      },
+      {
+        "title": "Integration with Existing Government Systems",
+        "description": "There is a significant concern about the maturity, scalability, and adaptability of new AI solutions and their ability to integrate smoothly with existing, potentially complex government IT infrastructure.",
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3",
+          "RFI_AI_Tools_for_Government.pdf page 7"
+        ],
+        "strategic_importance_score": 4
+      }
+    ],
+    "step3_refined_count": 4,
+    "step3_refined_points": [
+      {
+        "title": "Uncertainty in AI Market Landscape",
+        "description": "The department is in an exploratory phase, lacking a clear understanding of available AI tools and solutions relevant to government functions, which hinders strategic planning and procurement.",
+        "strategic_importance_score": 5,
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ]
+      },
+      {
+        "title": "Regulatory & Security Non-Compliance Risk",
+        "description": "Ensuring any adopted AI tool strictly adheres to government ICT, security, cyber, and privacy policies is a critical requirement and a significant challenge, creating a high compliance burden.",
+        "strategic_importance_score": 5,
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ]
+      },
+      {
+        "title": "Data Security with Third-Party LLMs",
+        "description": "A specific, acute concern exists around how AI solutions, particularly those using third-party large language models (LLMs), will ensure the security and safeguarding of sensitive government data.",
+        "strategic_importance_score": 5,
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3"
+        ]
+      },
+      {
+        "title": "Integration with Existing Government Systems",
+        "description": "A significant concern exists about the maturity, scalability, and adaptability of new AI solutions and their ability to integrate smoothly with existing, complex government IT infrastructure.",
+        "strategic_importance_score": 4,
+        "source_references": [
+          "RFI_AI_Tools_for_Government.pdf page 3",
+          "RFI_AI_Tools_for_Government.pdf page 7"
+        ]
+      }
+    ]
+  },
+  "deduplication": {
+    "before_count": 4,
+    "after_count": 3,
+    "merge_decisions": [
+      {
+        "kept": "Data Security with Third-Party LLMs",
+        "merged": "Integration with Existing Government Systems",
+        "similarity": 0.9056814470117953
+      }
+    ]
+  },
+  "pain_points_final": [
+    {
+      "title": "Uncertainty in AI Market Landscape",
+      "description": "The department is in an exploratory phase, lacking a clear understanding of available AI tools and solutions relevant to government functions, which hinders strategic planning and procurement.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_AI_Tools_for_Government.pdf page 3"
+      ]
+    },
+    {
+      "title": "Regulatory & Security Non-Compliance Risk",
+      "description": "Ensuring any adopted AI tool strictly adheres to government ICT, security, cyber, and privacy policies is a critical requirement and a significant challenge, creating a high compliance burden.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_AI_Tools_for_Government.pdf page 3"
+      ]
+    },
+    {
+      "title": "Data Security with Third-Party LLMs",
+      "description": "A specific, acute concern exists around how AI solutions, particularly those using third-party large language models (LLMs), will ensure the security and safeguarding of sensitive government data.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "RFI_AI_Tools_for_Government.pdf page 3"
+      ]
+    }
+  ]
+}

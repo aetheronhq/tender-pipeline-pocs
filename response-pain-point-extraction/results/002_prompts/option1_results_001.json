@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-10T12:25:16.561747",
+    "option": "option1_simple",
+    "model": "gemini-2.5-pro",
+    "threshold": 0.9,
+    "documents": [
+      "Request-for-Information-AI-Tools-in-Government.pdf"
+    ],
+    "timing": {
+      "upload_seconds": 6.38,
+      "extraction_seconds": 27.42,
+      "total_seconds": 33.83
+    },
+    "tokens": {
+      "prompt_tokens": 2142,
+      "candidates_tokens": 562,
+      "total_tokens": 4849
+    }
+  },
+  "pain_points_original": [
+    {
+      "title": "Need to Transform Government Service Delivery",
+      "description": "The government seeks to leverage AI to overcome current inefficiencies, enhance decision-making, and innovate service delivery. The ultimate goal is to increase public satisfaction and achieve better community outcomes through modern technology.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "OFFICIAL.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Severe Risk of AI Security & Data Privacy Breaches",
+      "description": "Adopting AI, particularly Large Language Models (LLMs), poses a significant risk to sensitive government data. Solutions must strictly comply with government ICT, security, cyber, and privacy policies to ensure the safeguarding of information.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "OFFICIAL.pdf page 3"
+      ]
+    },
+    {
+      "title": "Lack of a Clear AI Adoption & Procurement Strategy",
+      "description": "The department lacks a unified understanding of the AI market. They need to build a 'catalogue of offerings' to guide future procurement, policy development, and budget allocation, avoiding fragmented and risky ad-hoc AI implementations across agencies.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "OFFICIAL.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Challenge of Integrating AI into Legacy Systems",
+      "description": "The buyer is concerned about the maturity, scalability, and adaptability of AI solutions for integration with existing government systems. They need to avoid creating new data silos and ensure new tools are compatible with their current IT infrastructure.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "OFFICIAL.pdf page 3",
+        "OFFICIAL.pdf page 7"
+      ]
+    },
+    {
+      "title": "Uncertainty Over AI Investment and Pilot Pathways",
+      "description": "The government is unsure about the costs, pricing models, and real-world viability of AI solutions. They need to de-risk investment by exploring pilot initiatives and learning from vendors' past deployments to ensure successful, cost-effective adoption.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "OFFICIAL.pdf page 3",
+        "OFFICIAL.pdf page 7"
+      ]
+    }
+  ],
+  "deduplication": {
+    "before_count": 5,
+    "after_count": 5,
+    "merge_decisions": []
+  },
+  "pain_points_final": [
+    {
+      "title": "Need to Transform Government Service Delivery",
+      "description": "The government seeks to leverage AI to overcome current inefficiencies, enhance decision-making, and innovate service delivery. The ultimate goal is to increase public satisfaction and achieve better community outcomes through modern technology.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "OFFICIAL.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Severe Risk of AI Security & Data Privacy Breaches",
+      "description": "Adopting AI, particularly Large Language Models (LLMs), poses a significant risk to sensitive government data. Solutions must strictly comply with government ICT, security, cyber, and privacy policies to ensure the safeguarding of information.",
+      "strategic_importance_score": 5,
+      "source_references": [
+        "OFFICIAL.pdf page 3"
+      ]
+    },
+    {
+      "title": "Lack of a Clear AI Adoption & Procurement Strategy",
+      "description": "The department lacks a unified understanding of the AI market. They need to build a 'catalogue of offerings' to guide future procurement, policy development, and budget allocation, avoiding fragmented and risky ad-hoc AI implementations across agencies.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "OFFICIAL.pdf page 3-4"
+      ]
+    },
+    {
+      "title": "Challenge of Integrating AI into Legacy Systems",
+      "description": "The buyer is concerned about the maturity, scalability, and adaptability of AI solutions for integration with existing government systems. They need to avoid creating new data silos and ensure new tools are compatible with their current IT infrastructure.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "OFFICIAL.pdf page 3",
+        "OFFICIAL.pdf page 7"
+      ]
+    },
+    {
+      "title": "Uncertainty Over AI Investment and Pilot Pathways",
+      "description": "The government is unsure about the costs, pricing models, and real-world viability of AI solutions. They need to de-risk investment by exploring pilot initiatives and learning from vendors' past deployments to ensure successful, cost-effective adoption.",
+      "strategic_importance_score": 4,
+      "source_references": [
+        "OFFICIAL.pdf page 3",
+        "OFFICIAL.pdf page 7"
+      ]
+    }
+  ]
+}
